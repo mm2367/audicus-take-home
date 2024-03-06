@@ -1,0 +1,18 @@
+
+.title{
+ margin-top: 30px;
+ text-align: center;
+}
+
+
+.listParent{
+ width: 100%;
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+
+ li{
+  list-style: none;
+  margin-bottom: 20px;
+ }
+}

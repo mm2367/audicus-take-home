@@ -1,0 +1,13 @@
+@import "src/app/variables";
+
+.landingPageLink{
+  padding: 12px 16px;
+  border-radius: 20px;
+  font-size: $buttonTextSize;
+  background-color:$primaryBlue ;
+  margin-top:24px;
+  &:hover{
+    cursor: pointer;
+    opacity: 80%;
+  }
+}

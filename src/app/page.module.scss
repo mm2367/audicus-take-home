@@ -1,0 +1,19 @@
+@import "variables";
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  justify-content: center;
+  min-height: 100vh;
+  color:$primaryWhite;
+}
+
+.landingPageSection{
+  font-family: $headerFontFamily;
+  font-size: 72px;
+  text-align: center;
+  .subtitle{
+    font-size: 36px;
+  }
+}
